@@ -1,0 +1,37 @@
+//Import necessary views
+import com.pls.view.<VIEWNAME>
+
+public class <CLASSNAME>
+{
+	//Member variables
+	
+	
+	//Constructor
+	public <CLASSNAME>()
+	{
+		System.out.println("In constructor of <CLASSNAME>);
+		
+		//JButton ActionListeners
+		/*Define a new and distinctive ActionListner for each JButton.
+		 *The actionPerformed() for each button will be used to perform required action.
+		*/
+		ActionListener <NameOfAL> = new ActionListener()
+		{
+			@Override
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println("Clicked on <NameOfAL>");	
+				//TODO Implement
+			}
+		};
+		
+		//Attach ActionListner to corresponding JButton
+		
+		
+	}
+	
+	public void execute()
+	{
+		//An initializer method.
+	}
+}
